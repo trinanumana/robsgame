@@ -4,34 +4,42 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Rob's Ideological Game</title><link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Source+Code+Pro|VT323" rel="stylesheet">
-		<link rel="stylesheet" href="style.css"/>
+		<link rel="stylesheet" href="testcss.css"/>
 		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Source+Code+Pro|VT323" rel="stylesheet">
 	</head>
 	<body>
 	<div class="big-col blue">
 	<div class="avatar red">
-		<p class="center-content"> CANDIDATES </p>
+		<p class="center-content"> AVATAR </p>
 		<div class="selection">
-		<img src="images/left.png" class="left" onclick="leftClick(this)"> 
-		<img src="images/right.png" class="right" onclick="rightClick(this)">
-		<img src="images/rita.png" class="restrict-img-size center-content" id="one">
+		<img src="images/left.png" class="left" onclick="leftClick()"> 
+		<img src="images/right.png" class="right" onclick="rightClick()">
+		<img src="images/rita.png" class="restrict-img-size" id="one">
 		</div> 
-	</div>
-	<div class="profile green">
+		</div>
+	<div class="profile red">
 		<p class="center-content"> PROFILE </p>
 			<div class="hide" id="pl"><p class="checkAvione center-content"> Candidate one is running under the Democratic party and stands for a lot of social justice in her city. She came from a lower class family on the west coast and helps fund programs that help troubled youth, unemployed parents, and the homeless. She also believes that the middle class is vital to the survival of the American economy.</p></div>
 			<div class="hide" id="mv"><p class="checkAvione center-content"> Candidate three is a business minded candidate who also has a lot of family values. This candidate is also someone who does not favor outside job competition for the American cities, and is a huge supporter of the wall. Candidate two aims to cut taxes and regulations on manufacturing companies working in the US.</p></div>
 			<div class="hide" id="cc"><p class="checkAvione center-content"> Candidate two values family, God, and his country the most. Candidate two will defund programs like planned parenthood, create new and improved gun laws, and lastly, will try to get gay marriage laws removed. With this candidate God is at the core of everything.</p></div>
-	</div> 
-	<div class="block red">
-		<div class="vote lightgreen">
+			<div class="hide" id="lb"><p class="checkAvione center-content"> Candidate four is a candidate that stands for limited government social and economic input. This candidate aims to get the economy to feel similar to that of a laissez-faire country. </p> </div>
+		</div> 
 		</div>
-	</div>
+	<div class="big-coltwo red">
+		<div class="vote blue">
+		<p class="center-content"> Select Candidate </p>
+		<label class="center-content"><input type="checkbox" name="Candidate 1" id="plv" onclick="pro()"> Candidate 1 </label><br>
+		<label class="center-content"><input type="checkbox" name="Candidate 2" id="mag" onclick="maga()"> Candidate 2 </label><br>
+		<label class="center-content"><input type="checkbox" name="Candidate 3" id="chr" onclick="christ()"> Candidate 3 </label><br>
+		<label class="center-content"><input type="checkbox" name="Candidate 3" id="lib" onclick="liber()"> Candidate 4 </label><br>
+		<p class="center-content"> Please select which candidate you have elected to vote for in order to get your score in the following page based upon who you voted on. </p>
+		</div>
 	<div class="bottom-info red">
 		<p class="center-content"> CLICK TO CAST VOTE </p>
-		<button type="button" class="center-content">Click Me!</button>
+		<button type="button" class="center-content" onclick="vote(this)">Click Me!</button>
 	</div>
 	</div>
 	</body>
-<script src="script.js"></script>
+<script src="newjs.js"></script>
+<script src="finaljs.js"></script>
 </html>
