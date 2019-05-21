@@ -49,6 +49,13 @@ function hp1() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 	}
 	else if (document.getElementById("uh").checked == false) {
 		var p = "%";
@@ -81,6 +88,13 @@ function hp1() {
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
 		console.log("it works");
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 	}
 	else {
 		console.log(myboi);
@@ -118,6 +132,13 @@ function hp2() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 	}
 	else if (document.getElementById("comp").checked == false) {
 		var p = "%";
@@ -150,6 +171,13 @@ function hp2() {
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
 		console.log("it works");
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 	}
 	else {
 		console.log(myboi);
@@ -187,6 +215,13 @@ function hp3() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 	}
 	else if (document.getElementById("medic").checked == false) {
 		var p = "%";
@@ -218,6 +253,13 @@ function hp3() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 		console.log("it works");
 	}
 	else {
@@ -256,6 +298,13 @@ function hp4() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 	}
 	else if (document.getElementById("pp").checked == false) {
 		var p = "%";
@@ -287,6 +336,13 @@ function hp4() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 		console.log("it works");
 	}
 	else {
@@ -325,6 +381,13 @@ function ip1() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 	}
 	else if (document.getElementById("bs").checked == false) {
 		var p = "%";
@@ -356,6 +419,13 @@ function ip1() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 		console.log("it works");
 	}
 	else {
@@ -394,6 +464,13 @@ function ip2() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 	}
 	else if (document.getElementById("ra").checked == false) {
 		var p = "%";
@@ -425,6 +502,13 @@ function ip2() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 		console.log("it works");
 	}
 	else {
@@ -463,6 +547,13 @@ function ip3() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 	}
 	else if (document.getElementById("ob").checked == false) {
 		var p = "%";
@@ -494,6 +585,13 @@ function ip3() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 		console.log("it works");
 	}
 	else {
@@ -532,6 +630,13 @@ function ep1() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 	}
 	else if (document.getElementById("cse").checked == false) {
 		var p = "%";
@@ -563,6 +668,13 @@ function ep1() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 		console.log("it works");
 	}
 	else {
@@ -601,6 +713,13 @@ function ep2() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 	}
 	else if (document.getElementById("aoe").checked == false) {
 		var p = "%";
@@ -632,6 +751,13 @@ function ep2() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 		console.log("it works");
 	}
 	else {
@@ -670,6 +796,13 @@ function ep3() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 	}
 	else if (document.getElementById("ct").checked == false) {
 		var p = "%";
@@ -701,6 +834,13 @@ function ep3() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 		console.log("it works");
 	}
 	else {
@@ -739,6 +879,13 @@ function ep4() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 	}
 	else if (document.getElementById("fc").checked == false) {
 		var p = "%";
@@ -770,6 +917,13 @@ function ep4() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 		console.log("it works");
 	}
 	else {
@@ -808,6 +962,13 @@ function pp1() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 	}
 	else if (document.getElementById("gc").checked == false) {
 		var p = "%";
@@ -839,6 +1000,13 @@ function pp1() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 		console.log("it works");
 	}
 	else {
@@ -877,6 +1045,13 @@ function pp2() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 	}
 	else if (document.getElementById("tb").checked == false) {
 		var p = "%";
@@ -908,6 +1083,13 @@ function pp2() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 		console.log("it works");
 	}
 	else {
@@ -946,6 +1128,13 @@ function pp3() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 	}
 	else if (document.getElementById("is").checked == false) {
 		var p = "%";
@@ -977,6 +1166,13 @@ function pp3() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 		console.log("it works");
 	}
 	else {
@@ -1015,6 +1211,13 @@ function pp4() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 	}
 	else if (document.getElementById("ss").checked == false) {
 		var p = "%";
@@ -1046,6 +1249,13 @@ function pp4() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 		console.log("it works");
 	}
 	else {
@@ -1085,6 +1295,13 @@ function mp1() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 	}
 	else if (document.getElementById("ds").checked == false) {
 		var p = "%";
@@ -1116,6 +1333,13 @@ function mp1() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 		console.log("it works");
 	}
 	else {
@@ -1155,6 +1379,13 @@ function mp2() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 	}
 	else if (document.getElementById("ims").checked == false) {
 		var p = "%";
@@ -1186,6 +1417,13 @@ function mp2() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 		console.log("it works");
 	}
 	else {
@@ -1224,6 +1462,13 @@ function ecp1() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 	}
 	else if (document.getElementById("tw").checked == false) {
 		var p = "%";
@@ -1255,6 +1500,13 @@ function ecp1() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 		console.log("it works");
 	}
 	else {
@@ -1293,6 +1545,13 @@ function ecp2() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 	}
 	else if (document.getElementById("tcb").checked == false) {
 		var p = "%";
@@ -1324,6 +1583,13 @@ function ecp2() {
 		document.getElementById("msr").style.width = msrvscore;
 		document.getElementById("yi").style.width = yivscore;
 		document.getElementById("cc").style.width = ccvscore;
+		localStorage.setItem("plvscore", plvscore);
+		localStorage.setItem("mvvscore", mvvscore);
+		localStorage.setItem("lvscore", lvscore);
+		localStorage.setItem("bcbvscore", bcbvscore);
+		localStorage.setItem("msrvscore", msrvscore);
+		localStorage.setItem("yivscore", yivscore);
+		localStorage.setItem("ccvscore", ccvscore);
 		console.log("it works");
 	}
 	else {
@@ -1331,10 +1597,86 @@ function ecp2() {
 	}
 }
 
-function showScore() {
-	var p = "%";
-	var finalScore = plv + mvv + lv + bcbv + msrv + yiv + ccv;
-	var finalScoreString = finalScore.toString();
-	var finale = finalScoreString.concat(p);
-	document.getElementById("finalscore").innerHTML = finale;
+function showPLScore() {
+	var a = localStorage.getItem("plvscore");
+	document.getElementById("finalscore").innerHTML = a;
+	document.getElementById("finalPLV").classList.add("hide");
+	document.getElementById("finalBCBV").classList.add("hide");
+	document.getElementById("finalYIV").classList.add("hide");
+	document.getElementById("finalMVV").classList.add("hide");
+	document.getElementById("finalMSRV").classList.add("hide");
+	document.getElementById("finalCCV").classList.add("hide");
+	document.getElementById("finalLV").classList.add("hide");
+}
+
+function showBCBScore() {
+	var a = localStorage.getItem("bcbvscore");
+	document.getElementById("finalscore").innerHTML = a;
+	document.getElementById("finalPLV").classList.add("hide");
+	document.getElementById("finalBCBV").classList.add("hide");
+	document.getElementById("finalYIV").classList.add("hide");
+	document.getElementById("finalMVV").classList.add("hide");
+	document.getElementById("finalMSRV").classList.add("hide");
+	document.getElementById("finalCCV").classList.add("hide");
+	document.getElementById("finalLV").classList.add("hide");
+}
+
+function showYIScore() {
+	var a = localStorage.getItem("yivscore");
+	document.getElementById("finalscore").innerHTML = a;
+	document.getElementById("finalPLV").classList.add("hide");
+	document.getElementById("finalBCBV").classList.add("hide");
+	document.getElementById("finalYIV").classList.add("hide");
+	document.getElementById("finalMVV").classList.add("hide");
+	document.getElementById("finalMSRV").classList.add("hide");
+	document.getElementById("finalCCV").classList.add("hide");
+	document.getElementById("finalLV").classList.add("hide");
+}
+
+function showMVScore() {
+	var a = localStorage.getItem("mrsvscore");
+	document.getElementById("finalscore").innerHTML = a;
+	document.getElementById("finalPLV").classList.add("hide");
+	document.getElementById("finalBCBV").classList.add("hide");
+	document.getElementById("finalYIV").classList.add("hide");
+	document.getElementById("finalMVV").classList.add("hide");
+	document.getElementById("finalMSRV").classList.add("hide");
+	document.getElementById("finalCCV").classList.add("hide");
+	document.getElementById("finalLV").classList.add("hide");
+}
+
+function showMSRScore() {
+	var a = localStorage.getItem("msrvscore");
+	document.getElementById("finalscore").innerHTML = a;
+	document.getElementById("finalPLV").classList.add("hide");
+	document.getElementById("finalBCBV").classList.add("hide");
+	document.getElementById("finalYIV").classList.add("hide");
+	document.getElementById("finalMVV").classList.add("hide");
+	document.getElementById("finalMSRV").classList.add("hide");
+	document.getElementById("finalCCV").classList.add("hide");
+	document.getElementById("finalLV").classList.add("hide");
+}
+
+function showCCScore() {
+	var a = localStorage.getItem("ccvscore");
+	document.getElementById("finalscore").innerHTML = a;
+	document.getElementById("finalPLV").classList.add("hide");
+	document.getElementById("finalBCBV").classList.add("hide");
+	document.getElementById("finalYIV").classList.add("hide");
+	document.getElementById("finalMVV").classList.add("hide");
+	document.getElementById("finalMSRV").classList.add("hide");
+	document.getElementById("finalCCV").classList.add("hide");
+	document.getElementById("finalLV").classList.add("hide");
+}
+
+function showLScore() {
+	var a = localStorage.getItem("lvscore");
+	document.getElementById("finalscore").innerHTML = a;
+	document.getElementById("finalPLV").classList.add("hide");
+	document.getElementById("finalBCBV").classList.add("hide");
+	document.getElementById("finalYIV").classList.add("hide");
+	document.getElementById("finalMVV").classList.add("hide");
+	document.getElementById("finalMSRV").classList.add("hide");
+	document.getElementById("finalCCV").classList.add("hide");
+	document.getElementById("finalLV").classList.add("hide");
 }
