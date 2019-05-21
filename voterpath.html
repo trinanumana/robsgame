@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Create Your Voter</title>
+		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Source+Code+Pro|VT323" rel="stylesheet">
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+  
+	<body>
+		
+		<div class="column">
+		
+			<div class="blue partisan center-content" onclick="showDemBlocs()">
+				<p class="party subtitle">DEMOCRAT</p>
+			</div>
+			
+			<div class="red partisan center-content" onclick="showRepBlocs()">
+				<p class="party subtitle">REPUBLICAN</p>
+			</div>
+			
+		</div>
+		
+		<div class="column midgrey center-content">
+			<div class="bloclist">
+				<p class="subtitle">MAIN STANCES</p>
+				<div class="hide" id="dem">
+					<input type="checkbox" name="Progressive Liberal" id="statpl"> Progressive Liberal<br>
+					<input type="checkbox" name="Blue Collar Bloc" id="statbcb"> Blue Collar Bloc<br>
+					<input type="checkbox" name="Younger Independents" id="statyi"> Younger Independents<br>
+				</div>
+				<div class="hide" id="rep">
+					<input type="checkbox" name="MAGA Voter" id="statmv"> MAGA Voter<br>
+					<input type="checkbox" name="Main Street Republican" id="statmsr"> Main Street Republican<br>
+					<input type="checkbox" name="Christian Conservative" id="statcc"> Christian Conservative<br>
+					<input type="checkbox" name="Libertarian" id="statl"> Libertarian<br>
+				</div>
+			</div>
+			<div class="select">
+				<p class="titl">Are you ready to play?</p>
+				<a href="voterpage.html"><p class="subtitle big">YES</p></a>
+			</div>
+		</div>
+		
+		<div class="avatar grey center-content">
+			<p class="subtitle">CHOOSE YOUR AVATAR</p>
+			<img src="images/toon1.png">
+		</div>
+		<script src="myscript.js"></script>
+	</body>
+
+</html>

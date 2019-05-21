@@ -1,0 +1,181 @@
+/* UNIVERSAL */
+
+body {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100vh;
+	width: 100vw;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 0px;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+p {
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.center-content {
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	text-justify: center;
+}
+
+.main {
+	padding-top: 3%;
+	font-size: 200%;
+}
+
+.party {
+	padding-top: 6%;
+	font-size: 1000%;
+	color: white;
+}
+
+.titl {
+	font-family: 'Press Start 2P', cursive;
+	-webkit-animation:colorchange 10s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+      0% {
+        color: #802121;
+      }
+      50% {
+        color: #1F72BF;
+      }
+    }
+
+.subtitle {
+	font-family: 'VT323', monospace;
+}
+
+.reg {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 20px;
+}
+
+/* INDEX */
+
+.row {
+	height: 20%;
+	width: 100%;
+}
+
+.options {
+	display: flex;
+	height: 60%;
+	width: 100%;
+}
+
+.choice {
+	height: 100%;
+	width: 50%;
+}
+
+/* VOTER & CANDIDATE PATH */
+
+.2 {
+	display: block;
+}
+
+.column {
+	height: 100%;
+	width: 40%;
+}
+
+.partisan {
+	height: 50%;
+	width: 100%;
+}
+
+.avatar {
+	height: 100%;
+	width: 20%;
+}
+
+.bloclist {
+	height: 90%;
+	width: 100%;
+}
+
+.select {
+	height: 10%;
+	width: 100%;
+}
+
+.big {
+	font-size: 300%;
+}
+
+.hide {
+	display: none;
+}
+
+/* CANDIDATE GAMEPLAY */
+
+.column2 {
+	display: block;
+	height: 100%;
+	width: 40%;
+}
+
+.column3 {
+	display: block;
+	height: 100%;
+	width: 60%;
+}
+
+.policy {
+	min-height: calc(100%/6);
+	width: 100%;
+}
+
+.progress {
+	height: calc(100%/8);
+	width: 90%;
+	margin: 5%;
+}
+
+/* COLORS */
+
+.red {
+	background-color: #802121;
+}
+
+.blue {
+	background-color: #1F72BF;
+}
+
+.rose {
+	background-color: #CC7272;
+}
+
+.sky {
+	background-color: #5D95CA;
+}
+
+.white {
+	background-color: #F1F0FD;
+}
+
+.midgrey {
+	background-color: #C3C3C9;
+}
+
+.grey {
+	background-color: #D0D0D6;
+}

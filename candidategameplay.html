@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Try to Win the Election</title>
+		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Source+Code+Pro|VT323" rel="stylesheet">
+		<link rel="stylesheet" href="style.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	</head>
+  
+	<body>
+		
+		<div class="red column2">
+			<div class="rose policy">
+				<p class="subtitle">Health Policies</p>
+				<input type="checkbox" name="Health Policy No. 1" id="uh" onclick="hp1()"> Introduce universal healthcare to the United States, which would increase the health of our country's citizens.<br>
+				<input type="checkbox" name="Health Policy No. 2" id="comp" onclick="hp2()"> Increase competition in the private insurance sector, people can decide the best policies for the best prices.<br>
+				<input type="checkbox" name="Health Policy No. 3" id="medic" onclick="hp3()"> Allow states to pick their own requirements for Medicaid, states know their citizens the best, and allows funding to go towards other programs the state finds important.<br>
+				<input type="checkbox" name="Health Policy No. 4" id="pp" onclick="hp4()"> Defund Planned Parenthood, and place funding into traditional family-planning programs.<br>
+			</div>
+			<div class="sky policy">
+				<p class="subtitle">Immigration Policies</p>
+				<input type="checkbox" name="Immigration Policy No.1" id="bs" onclick="ip1()"> Invest in border security infrastructure and technology, as this would help decrease the number of illegal immigrants entering the United States.<br>
+				<input type="checkbox" name="Immigration Policy No.2" id="ra" onclick="ip2()"> Increase limits of how many refugees/asylees and migrants can enter the United States in a given year, so the government can mainly focus on helping their own.<br>
+				<input type="checkbox" name="Immigration Policy No.3" id="ob" onclick="ip3()"> Open borders that will allow migrants to better their lives.<br>
+			</div>
+			<div class="white policy">
+				<p class="subtitle">Education Policies</p>
+				<input type="checkbox" name="Education Policy No.1" id="cse" onclick="ep1()"> Make comprehensive sex education mandatory for all states, as this can help maintain the sexual health and livelihoods of citizens.<br>
+				<input type="checkbox" name="Education Policy No.2" id="aoe" onclick="ep2()"> Increase government funding for abstinence-only education in schools, as this will help maintain the morals of our country.<br>
+				<input type="checkbox" name="Education Policy No.3" id="ct" onclick="ep3()"> Teach creationist theory along with evolution in schools.<br>
+				<input type="checkbox" name="Education Policy No.4" id="fc" onclick="ep4()"> Make higher education easier for citizens to obtain by making it free and government funded by taxes.<br>
+			</div>
+			<div class="rose policy">
+				<p class="subtitle">Public Policies</p>
+				<input type="checkbox" name="Public Policy No.1" id="gc" onclick="pp1()"> Increase gun control by initiating more comprehensive background checks, and banning semi-automatic rifles.<br>
+				<input type="checkbox" name="Public Policy No.2" id="tb" onclick="pp2()"> Increase taxes and regulations on businesses that do not support environmentally friendly policies.<br>
+				<input type="checkbox" name="Public Policy No.3" id="is" onclick="pp3()"> Increase subsidies to businesses and people who invest in environmentally friendly practices.<br>
+				<input type="checkbox" name="Public Policy No.4" id="ss" onclick="pp4()"> Cut Social Security and put the funds for that towards other programs that benefit the country.<br>
+			</div>
+			<div class="sky policy">
+				<p class="subtitle">Military policies</p>
+				<input type="checkbox" name="Military Policy No.1" id="ds" onclick="mp1()"> Decrease spending on the military and put it towards programs that help the people, such as Social Security.<br>
+				<input type="checkbox" name="Military Policy No.2" id="ims" onclick="mp2()"> Increase military spending to protect the United States and the free world.<br>
+			</div>
+			<div class="white policy">
+				<p class="subtitle">Economic Policies</p>
+				<input type="checkbox" name="Economic Policy No.1" id="tw" onclick="ecp1()"> Increase taxes on the wealthy and fund welfare programs that help the poor and needy climb out of poverty.<br>
+				<input type="checkbox" name="Economic Policy No.2" id="tcb" onclick="ecp2()"> Cut taxes and regulations on businesses to stimulate economic growth and effective business practices.<br>
+			</div>
+		</div>
+		
+		<div class="column3 green center-content">
+			<div>
+				<p class="main subtitle">Your Supporters</p>
+			</div>
+			<div class="progress">
+				<!--<p class="subtitle">Christian Conservative</p>-->
+				<div class="progress-bar" id="cc" role="progressbar" aria-valuenow="0" aria-valuemin="-0" aria-valuemax="100" style="width:0%"></div>
+			</div>
+			<div class="progress">
+				<!--<p class="subtitle">Main Street Republican</p>-->
+				<div class="progress-bar" id="msr" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%"></div>
+			</div>
+			<div class="progress">
+				<!--<p class="subtitle">MAGA Voter</p>-->
+				<div class="progress-bar" id="mv" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%"></div>
+			</div>
+			<div class="progress">
+				<!--<p class="subtitle">Libertarian</p>-->
+				<div class="progress-bar" id="l" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%"></div>
+			</div>
+			<div class="progress">
+				<!--<p class="subtitle">Progressive Liberal</p>-->
+				<div class="progress-bar" id="pl" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%"></div>
+			</div>
+			<div class="progress">
+				<!--<p class="subtitle">Blue Collar Bloc</p>-->
+				<div class="progress-bar" id="bcb" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%"></div>
+			</div>
+			<div class="progress">
+				<!--<p class="subtitle">Younger Independents</p>-->
+				<div class="progress-bar" id="yi" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%"></div>
+			</div>
+			<div class="">
+				<p class="titl">Are you ready to see election results?</p>
+				<a href="finalcandidatepage.html"><p class="subtitle big">YES</p></a>
+			</div>
+		</div>
+		
+		<script src="myscript.js"></script>
+		
+	</body>
+
+</html>
